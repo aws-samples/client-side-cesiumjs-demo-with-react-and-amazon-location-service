@@ -1,0 +1,42 @@
+{
+  "name": "cesiumjsreact",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@cloudscape-design/components": "3.0.696",
+    "@cloudscape-design/global-styles": "1.0.31",
+    "aws4": "1.13.0",
+    "cesium": "1.119.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-globe.gl": "2.27.2",
+    "resium": "1.18.0",
+    "uuid": "9.0.1",
+    "vite-plugin-node-polyfills": "0.22.0",
+    "xhook": "1.6.2",
+    "aws-amplify": "6.5.1"
+  },
+  "devDependencies": {
+    "@types/aws4": "1.11.6",
+    "@types/xhook": "1.5.3",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@types/uuid": "10.0.0",
+    "@typescript-eslint/eslint-plugin": "7.15.0",
+    "@typescript-eslint/parser": "7.15.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "eslint": "8.57.0",
+    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-react-refresh": "0.4.7",
+    "typescript": "5.2.2",
+    "vite": "5.3.4",
+    "vite-plugin-cesium": "1.2.22"
+  }
+}
